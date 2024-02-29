@@ -2,10 +2,12 @@
 
 * {
     font-family: "Gochi Hand", cursive;
+    box-sizing: border-box;
 }
+
 body {
-    display: flex;
     position: relative;
+    display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -26,11 +28,10 @@ button {
 
 .modal-container {
     position: fixed;
-    color: #DA0C81;
-    background-color: #F9F9E0;
-    border: solid 1px #FF90BC;
+    color:#F9F9E0 ;
+    background-color: #DA0C81;
     border-radius: 7px;
-    box-shadow: 10px 10px #FF90BC;
+    box-shadow: 15px 10px #ffb6d3;
     font-size: 35px;
     opacity: 0;
     pointer-events: none;
@@ -44,10 +45,31 @@ button {
 
 .modal {
     padding: 50px 65px;
+    text-align: center;
 }
 
 #close {
     font-size: 20px;
     padding: 10px 25px;
+    background-color: #F9F9E0;
+    color: #DA0C81;
     box-shadow: 4px 5px #FF90BC;
+}
+
+#header {
+    position: fixed;
+    top: 300px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .modal-container {
+        min-height: 100vh;
+        font-size: 30px;
+        letter-spacing: 3px;
+    }
 }
