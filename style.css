@@ -18,7 +18,7 @@ body {
 button {
     color: #F9F9E0;
     background-color: #DA0C81;
-    font-size: 25px;
+    font-size: 20px;
     padding: 30px 45px;
     border: none;
     border-radius: 7px;
@@ -32,7 +32,7 @@ button {
     background-color: #DA0C81;
     border-radius: 7px;
     box-shadow: 15px 10px #ffb6d3;
-    font-size: 35px;
+    font-size: 27px;
     opacity: 0;
     pointer-events: none;
     transition: opacity 0.3s ease-in;
@@ -63,13 +63,4 @@ button {
 
 ul {
     list-style-type: none;
-}
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-    .modal-container {
-        min-height: 100vh;
-        font-size: 30px;
-        letter-spacing: 3px;
-    }
 }
