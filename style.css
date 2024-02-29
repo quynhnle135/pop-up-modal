@@ -28,6 +28,10 @@ button {
 
 .modal-container {
     position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
     color:#F9F9E0 ;
     background-color: #DA0C81;
     border-radius: 7px;
@@ -63,4 +67,15 @@ button {
 
 ul {
     list-style-type: none;
+}
+
+@media only screen and (max-height: 930px) {
+    #header {
+        top: 250px;
+    }
+    .modal-container {
+        /* min-height: 100vh; */
+        font-size: 25px;
+        letter-spacing: 3px;
+    }
 }
