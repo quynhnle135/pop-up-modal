@@ -105,3 +105,21 @@ ul {
         padding: 30px 50px;
     }
 }
+
+/* Targeting iPhone 13 and iPhone 13 Pro (6.1-inch display) */
+@media only screen 
+  and (min-device-width: 390px) 
+  and (max-device-width: 390px) 
+  and (-webkit-min-device-pixel-ratio: 3) {
+    #header {
+        top: 150px;
+    }
+    .modal {
+        padding: 35px 50px; /* Adjust padding for better fit */
+    }
+    /* Adjust other elements as needed */
+    .modal-container {
+        font-size: 15px;
+        letter-spacing: 3px;
+    }
+}
