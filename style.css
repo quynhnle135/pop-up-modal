@@ -74,8 +74,34 @@ ul {
         top: 200px;
     }
     .modal-container {
-        /* min-height: 100vh; */
+        padding: 30px 50px;
         font-size: 22px;
         letter-spacing: 3px;
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #header {
+        top: 200px;
+    }
+    .modal-container {
+        font-size: 15px;
+        letter-spacing: 3px;
+    }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-height: 930px) {
+    #header {
+        top: 200px;
+    }
+    .modal-container {
+        padding: 30px 50px;
+        font-size: 20px;
+        letter-spacing: 3px;
+    }
+
+    .modal {
+        padding: 30px 50px;
     }
 }
